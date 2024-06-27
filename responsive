@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 2px;
+    }
+    body{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    #icon{
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 5px;
+    }
+    .h{
+        background-color: yellow;
+        width: 100%;
+        border: 1px solid black;
+        padding: 5px;
+        
+        
+    }
+    #con{
+        text-align: center;
+    }
+
+    #loc{
+        color: orange;
+        width: 100%;
+    }
+    #sal{
+        color: violet;
+    }
+    #gen{
+        color: coral;
+    }
+    #ph{
+color: blue;
+font-size: 25px;
+    }
+    pre{
+    padding-left: 20%;
+    }
+@media screen and (max-width:880px) {
+    pre{
+        padding-left: 0;
+    }
+    .h{
+        font-size: 15px;
+    }
+    
+}
+    
+</style>
+<body>
+    <h3 id="icon">WANTED - URGENT JOB RECRUITMENT</h3><br>
+    <h3 id="con"><span class="h">COMPANY NAME</span><span class="h"> TELECOMMUNICATION PVT LTD</span></h3><br>
+    <pre>
+    LOCATION              :<span id="loc">Tirupati, Sricity</span>
+
+    DESIGNATION           :Trainee
+
+    NO OF OPENINGS        :50+
+    EDUCATIONAL             
+    QUALIFICATION         :BE
+
+    SALARY                :<span id="sal">15000 to 17000</span> 
+
+    AGE LIMIT             :18 - 25
+
+    GENDER                :<span id="gen">Male & Female</span>
+
+    FOOD                  :Available
+
+    TRANSPORT             :Sricity (Tada) & Renigunta (Tirupati)
+
+    PHONE NO              :<span id="ph">7824556098</span>
+    </pre>
+</body>
+</html>
