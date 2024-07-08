@@ -1,0 +1,25 @@
+body{
+    background:linear-gradient(70deg,#11222f,#77A);
+}
+.container{
+    height: 550px;
+    width: 50%;
+    margin: auto;
+    background:linear-gradient(45deg,#112263,green);
+    border-radius: 50%;
+    box-shadow: 0 0 50px 20px ;;
+}
+.head{
+    text-align: center;
+    color: #ffaabb;
+    padding-top: 100px;
+    font-size: 50px;
+    text-shadow: 0 0 10px red;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.para{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0 30px ;
+}
